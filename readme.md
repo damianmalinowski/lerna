@@ -9,4 +9,4 @@
 nie publikujemy src do rejestru npm 
 nie publikujemy lib do git-a
 
-
+`lerna version` 
