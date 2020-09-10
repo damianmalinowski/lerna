@@ -1,6 +1,6 @@
 {
   "name": "@tt/header",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "> TODO: description",
   "author": "Damian Malinowski <damian.malinowski@hotmail.com>",
   "homepage": "https://github.com/damianmalinowski/lerna#readme",
@@ -12,7 +12,7 @@
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1",
-    "build": "webpack --mode=production --output-library-target=commonjs2 -o lib/index.js" 
+    "build": "webpack --mode=production --output-library-target=commonjs2 -o lib/index.js"
   },
   "bugs": {
     "url": "https://github.com/damianmalinowski/lerna/issues"
