@@ -1,0 +1,24 @@
+{
+  "name": "@tt/header",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Damian Malinowski <damian.malinowski@hotmail.com>",
+  "homepage": "https://github.com/damianmalinowski/lerna#readme",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/damianmalinowski/lerna.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "build": "webpack --mode=production --output-library-target=commonjs2 -o lib/index.js" 
+  },
+  "bugs": {
+    "url": "https://github.com/damianmalinowski/lerna/issues"
+  },
+  "devDependencies": {
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
+}
